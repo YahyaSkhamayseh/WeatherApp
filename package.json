@@ -1,0 +1,21 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "func start",
+    "test": "echo \"No tests yet...\""
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "azure-functions-core-tools": "^4.x"
+  },
+  "dependencies": {
+    "jose": "^4.11.2",
+    "jwk-to-pem": "^2.0.5",
+    "node-fetch": "^3.3.0",
+    "request": "^2.88.2"
+  }
+}
